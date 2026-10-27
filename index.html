@@ -36,7 +36,7 @@ body{
         #3B82F6
     );
     color:white;
-    padding:40px 24px;
+    padding:24px 24px;
     text-align:center;
 }
 
@@ -124,6 +124,9 @@ body{
     padding:16px;
     text-align:center;
     background:#FAFAFA;
+
+    transition:.2s;
+    cursor:pointer;
 }
 
 .quick-card .icon{
@@ -152,6 +155,9 @@ body{
     text-decoration:none;
     color:var(--text);
     box-shadow:0 2px 8px rgba(0,0,0,.05);
+
+    transition:.2s;
+    cursor:pointer;
 }
 
 .category-left{
@@ -186,6 +192,20 @@ body{
     font-size:12px;
 }
 
+/* 滑鼠移入效果 */
+
+.category-card:hover{
+    transform:translateY(-2px);
+}
+
+.quick-card:hover{
+    transform:translateY(-2px);
+}
+
+.order-btn:hover{
+    opacity:.9;
+}
+
 </style>
 
 </head>
@@ -202,10 +222,7 @@ body{
         飲料團購系統
     </div>
 
-    <div class="header-subtitle">
-        Company Drink Ordering Platform
-    </div>
-
+  
 </div>
 
 <div class="container">
