@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>珍珠奶茶</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#F8FAFC;
+    font-family:"Microsoft JhengHei",sans-serif;
+}
+
+.header{
+    background:#2563EB;
+    color:white;
+    padding:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:520px;
+    margin:auto;
+    padding:16px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:16px;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+.product-name{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.price{
+    color:#2563EB;
+    font-size:22px;
+    margin-top:8px;
+}
+
+.group-title{
+    font-weight:bold;
+    margin-bottom:12px;
+}
+
+.option{
+    margin:8px 0;
+}
+
+.input{
+    width:100%;
+    padding:12px;
+    border:1px solid #CBD5E1;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.order-btn{
+    width:100%;
+    border:none;
+    border-radius:14px;
+    padding:16px;
+    font-size:18px;
+    background:#0F172A;
+    color:white;
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+🥤 商品設定
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<div class="product-name">
+珍珠奶茶
+</div>
+
+<div class="price">
+NT$65
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="group-title">
+甜度
+</div>
+
+<div class="option">
+<input type="radio" name="sweet" checked>
+正常糖
+</div>
+
+<div class="option">
+<input type="radio" name="sweet">
+半糖
+</div>
+
+<div class="option">
+<input type="radio" name="sweet">
+微糖
+</div>
+
+<div class="option">
+<input type="radio" name="sweet">
+無糖
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="group-title">
+冰量
+</div>
+
+<div class="option">
+<input type="radio" name="ice" checked>
+正常冰
+</div>
+
+<div class="option">
+<input type="radio" name="ice">
+少冰
+</div>
+
+<div class="option">
+<input type="radio" name="ice">
+微冰
+</div>
+
+<div class="option">
+<input type="radio" name="ice">
+去冰
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="group-title">
+加料
+</div>
+
+<div class="option">
+<input type="checkbox">
+椰果 +10
+</div>
+
+<div class="option">
+<input type="checkbox">
+布丁 +15
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="group-title">
+工號
+</div>
+
+<input
+class="input"
+placeholder="請輸入工號，例如 A12345">
+
+</div>
+
+<button class="order-btn">
+加入訂單
+</button>
+
+</div>
+
+</body>
+</html>
